@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(./assets/fonts/montserrat.ttf) format('truetype');
+  }
+}
+
+body,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', serif;
+}
+
+.active {
+  @apply bg-text-primary-red text-white rounded-lg;
+}
+
+.font-700-12-lh1463-l0 {
+  @apply font-[700] text-[12px] leading-[14.63px] tracking-[1px];
+}
+
+.text-main-h2-color {
+  @apply font-[700] text-xl leading-6;
+}
+
+.text-main-p {
+  @apply font-normal text-base leading-[26px]
+}
+
+.hero-text-red {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
