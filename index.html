@@ -9,8 +9,9 @@
 </head>
 
 <body class="text-white">
-  <header class="">
-    <div class="lang-phone bg-header-blue flex justify-between align-center px-[15px]">
+  <header>
+    <div
+      class="lang-phone bg-header-blue md:bg-main-blue  flex justify-between items-center md:justify-start md:gap-[6px] px-[15px] md:px-[60px] md:pt-[50px] md:pb-[30px]">
       <div class="lang ">
         <ul class="flex  py-[10px] font-700-12-lh1463-l0">
           <li class="">
@@ -24,25 +25,55 @@
           </li>
         </ul>
       </div>
-      <div class="flex items-center">
-        <a class="phone font-bold text-base leading-[19.5px]" href="tel:0800 211 927">0800 211 927</a>
+
+      <div>
+        <img class="hidden md:flex w-[6px] h-[6px]" src="assets/svg/dot.svg" alt="dot">
       </div>
+      <p class="hidden md:flex font-normal text-base leading-[19.5px] text-copyright">Kyiv, Mechnikova str., 14/1</p>
+      <img class=" hidden md:flex w-[6px] h-[6px]" src="assets/svg/dot.svg" alt="dot">
+      <div class="">
+        <a class="phone font-bold text-base leading-[19.5px] " href="tel:0800 211 927">0800 211 927</a>
+      </div>
+      <img class="hidden md:flex w-[6px] h-[6px]" src="assets/svg/dot.svg" alt="dot">
+      <a class="hidden md:flex" href="#"><img class="hidden md:flex w-[24px] h-[24px]"
+          src="assets/svg/facebook-header.svg" alt="facebook-header"></a>
     </div>
-    <div class="bg-main-blue header-logo flex justify-between px-[15px] pt-[15px] pb-[40px]">
-      <div class="flex gap-1 w-[70px] h-[32px] items-center">
-        <img src="assets/svg/logo.svg" alt="logo">
-        <img src="assets/svg/slash.svg" alt="">
-        <p class="text-xl leading-6">services</p>
+    <div
+      class="bg-main-blue header-logo flex justify-between px-[15px] pt-[15px] md:pt-[0px] pb-[40px] md:flex-col md:px-[60px] md:pb-[60px]">
+      <div class="flex gap-1 w-[70px] h-[32px] items-center md:h-[60px] md:w-[130px] md:mb-[30px]">
+        <img class="w-[69.33px] h-[32px] md:w-[130px] md:h-[60px]" src="assets/svg/logo.svg" alt="logo">
+        <img class="w-[11.62px] h-[26px] md:w-[21px] md:h-[60px]" src="assets/svg/slash.svg" alt="slash">
+        <p class="text-xl leading-6 md:text-4xl md:leading-[43.88px]">services</p>
       </div>
-      <img class="w-[32px] h-[32px]" src="assets/svg/hamburger.svg" alt="">
+      <img class="w-[32px] h-[32px] md:hidden" src="assets/svg/hamburger.svg" alt="">
+      <nav class="hidden md:flex ">
+        <ul class="flex justify-start gap-[15px]">
+          <li>
+            <a class="nav-text" href="#">about us</a>
+          </li>
+          <li>
+            <a class="nav-text nav-active" href="#">services</a>
+          </li>
+          <li>
+            <a class="nav-text" href="#">team</a>
+          </li>
+          <li>
+            <a class="nav-text" href="#">publications</a>
+          </li>
+          <li>
+            <a class="nav-text" href="#">contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
   <main class="">
-    <div class="px-[30px] bg-main-blue">
-      <div class="pb-[30px]">
-        <h1 class=" font-bold text-3xl hero-text-red">What can we do better than others?</h1>
+    <div class="px-[30px] bg-main-blue md:px-[60px] ">
+      <div class="pb-[30px] md:pb-[60px]">
+        <h1 class=" font-bold text-3xl hero-text-red md:text-[38px] leading-[46.32px]">What can we do better than
+          others?</h1>
       </div>
-      <ul class="flex  gap-[30px] flex-wrap pb-[60px]">
+      <ul class="flex  gap-[30px] flex-wrap md:gap-[60px] pb-[60px]">
         <li class="w-[294px]">
           <img class="pb-[30px] w-[92px] h-[92px]" src="assets/svg/trash.svg" alt="trash">
           <h2 class="pb-[15px] text-main-h2-color">IT and e-commerce</h2>
@@ -100,36 +131,67 @@
 
     <h3 class="text-center text-main-h3 pb-[30px] font-bold text-sm leading-[17.07px] tracking-[1px]">They already
       trust us</h3>
-    <div class="flex flex-wrap items-center">
-      <div>
-        <img class="bg-hillel-bg min-w-[217px] px-[78px] py-[36px]" src="assets/images/hillel-logo-hneLine-hhite.png"
+
+    <div class="flex  flex-wrap items-center ">
+      <div class="w-dvw bg-hillel-bg flex justify-center md:w-1/3 md:h-[120px]">
+        <img class=" min-w-[217px] min-h-[48px]  py-[36px] " src="assets/images/hillel-logo-hneLine-hhite.png"
           alt="hillel-logo">
       </div>
-      <div>
-        <img class="bg-wanna-biz px-[89px] py-[44px]" src="assets/images/wanna-biz.png" alt="wanna-biz">
+      <div class="w-dvw bg-wanna-biz flex justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[199px] min-h-[32px]  py-[44px] " src="assets/images/wanna-biz.png" alt="wanna-biz">
       </div>
-      <div>
-        <img class="bg-tapgerine px-[98px] py-[38px]" src="assets/images/tapgerine.png" alt="tapgerine">
+      <div class="w-dvw bg-tapgerine flex justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[179px] min-h-[44px]  py-[38px] " src="assets/images/tapgerine.png" alt="tapgerine">
       </div>
-      <div>
-        <img class="bg-three-d-look px-[98px] py-[39px]" src="assets/images/3look.png" alt="">
+      <div class="w-dvw bg-three-d-look flex justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[180px] min-h-[42px]  py-[39px] " src="assets/images/3look.png" alt="3look">
       </div>
-      <div>
-        <img class="bg-orangear px-[100px] py-[38px]" src="assets/images/orangear.png" alt="orangear">
+      <div class="w-dvw bg-orangear flex justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[174px] min-h-[44px]  py-[38px] " src="assets/images/orangear.png" alt="orangear">
       </div>
-      <div>
-        <img class="bg-adtelligent px-[100px] py-[38px]" src="assets/images/adtelligent.png" alt="adtelligent">
+      <div class="w-dvw bg-adtelligent flex justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[194.79px] min-h-[48px]  py-[38px] " src="assets/images/adtelligent.png" alt="adtelligent">
+      </div>
+      <div class="hidden md:flex w-dvw bg-clickky flex justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[138px] min-h-[61px]  py-[29px] " src="assets/images/clickky.png" alt="adtelligent">
+      </div>
+      <div class="hidden md:flex w-dvw bg-eco-leasing flex justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[146px] min-h-[76px]  py-[22px] " src="assets/images/ecolease.png" alt="adtelligent">
+      </div>
+      <div class="hidden md:flex w-dvw bg-infa-tek  justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[182px] min-h-[60px]  py-[30px] " src="assets/images/infatrec.png" alt="adtelligent">
+      </div>
+      <div class="hidden md:flex w-dvw bg-sity-park  justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[181px] min-h-[38px]  py-[41px] " src="assets/images/sitypark.png" alt="adtelligent">
+      </div>
+      <div class="hidden md:flex w-dvw bg-art-print  justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[189px] min-h-[46px]  py-[37px] " src="assets/images/artprint.png" alt="adtelligent">
+      </div>
+      <div class="hidden md:flex w-dvw bg-black  justify-center md:w-1/3  md:h-[120px]">
+        <img class=" min-w-[152px] min-h-[95px]  py-[13px] " src="assets/images/ultimate-card.png" alt="adtelligent">
       </div>
     </div>
+
   </main>
   <footer>
     <div class="bg-footer-bg px-[30px] py-[30px] flex flex-col justify-center items-center">
-      <h3 class="text-main-h3 font-normal text-base leading-[19.5px] pb-[10px]">Kyiv, Mechnikova str., 14/1</h3>
-      <p class="text-main-h2-color font-bold text-xs leading-[14.63px] tracking-[1px] pb-[21px]">On map</p>
-      <img class="w-[38px] h-[38px]" src="assets/svg/facebook-icon.svg" alt="facebook-icon pb-[10px]">
-      <a class="text-color-tel font-bold text-base leading-[19.5px] pb-[10px]" href="tel:0800211927">0800 211 927</a>
-      <a class="text-main-h2-color font-bold text-base leading-[19.5px] pb-[30px]"
-        href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+      <div class="flex flex-col items-center justify-center md:flex-row md:gap-x-2.5  md:pb-[21px]">
+
+        <h3 class="text-main-h3 font-normal text-base leading-[19.5px] pb-[10px] md:pb-[0px]">Kyiv, Mechnikova str.,
+          14/1</h3>
+        <img class="hidden md:flex w-[6px] h-[6px] " src="assets/svg/dot-footer.svg" alt="dot-footer">
+        <p class="text-main-h2-color font-bold text-xs leading-[14.63px] tracking-[1px] pb-[21px] md:pb-[0px]">On map
+        </p>
+      </div>
+      <div class="flex flex-col items-center justify-center md:flex-row md:gap-x-2.5 md:pb-[30px]">
+        <img class="w-[38px] h-[38px]" src="assets/svg/facebook-icon.svg" alt="facebook-icon pb-[10px]">
+        <img class="hidden md:flex w-[6px] h-[6px] " src="assets/svg/dot-footer.svg" alt="dot-footer">
+        <a class="text-color-tel font-bold text-base leading-[19.5px] pb-[10px] md:pb-[0px]" href="tel:0800211927">0800
+          211 927</a>
+        <img class="hidden md:flex w-[6px] h-[6px] " src="assets/svg/dot-footer.svg" alt="dot-footer">
+        <a class="text-main-h2-color font-bold text-base leading-[19.5px] pb-[30px] md:pb-[0px]"
+          href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+      </div>
       <p class="text-copyright font-normal text-base leading-[19.5px]">&copy; 2021 HLEGAL Law company, LLC</p>
     </div>
   </footer>
