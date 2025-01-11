@@ -2,7 +2,14 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
+
     extend: {
+
+      screens: {
+        'dssd': '1440px',
+        'dshd': '1900px',
+      },
+
       colors: {
         'header-blue': '#585982',
         'text-primary-red': '#F0145A',

@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body class="text-white">
-  <header>
+<body class="text-white ">
+  <header class="lg:grid md:bg-main-blue lg:grid-cols-2 lg:grid-rows-2 lg:items-end lg:pb-[60px] lg:pt-[50px] ">
     <div
-      class="lang-phone bg-header-blue md:bg-main-blue  flex justify-between items-center md:justify-start md:gap-[6px] px-[15px] md:px-[60px] md:pt-[50px] md:pb-[30px]">
+      class="lang-phone bg-header-blue md:bg-main-blue flex justify-between items-center md:px-[60px] px-[30px] md:justify-start md:gap-[6px]  lg:px-[0px]  md:pt-[50px] md:pb-[30px]  lg:pt-[0px] lg:pb-[0px]  lg:col-start-2 lg:justify-self-end lg:pe-[60px]">
       <div class="lang ">
         <ul class="flex  py-[10px] font-700-12-lh1463-l0">
           <li class="">
@@ -27,54 +27,56 @@
       </div>
 
       <div>
-        <img class="hidden md:flex w-[6px] h-[6px]" src="assets/svg/dot.svg" alt="dot">
+        <img class="hidden md:flex w-[6px] h-[6px]" src="assets/svg/dot.svg" alt="dot ">
       </div>
-      <p class="hidden md:flex font-normal text-base leading-[19.5px] text-copyright">Kyiv, Mechnikova str., 14/1</p>
+      <p class="hidden md:flex font-normal text-base leading-[19.5px] text-copyright whitespace-nowrap">Kyiv, Mechnikova
+        str., 14/1</p>
       <img class=" hidden md:flex w-[6px] h-[6px]" src="assets/svg/dot.svg" alt="dot">
       <div class="">
-        <a class="phone font-bold text-base leading-[19.5px] " href="tel:0800 211 927">0800 211 927</a>
+        <a class="phone font-bold text-base leading-[19.5px] whitespace-nowrap" href="tel:0800 211 927 ">0800 211
+          927</a>
       </div>
       <img class="hidden md:flex w-[6px] h-[6px]" src="assets/svg/dot.svg" alt="dot">
       <a class="hidden md:flex" href="#"><img class="hidden md:flex w-[24px] h-[24px]"
           src="assets/svg/facebook-header.svg" alt="facebook-header"></a>
     </div>
     <div
-      class="bg-main-blue header-logo flex justify-between px-[15px] pt-[15px] md:pt-[0px] pb-[40px] md:flex-col md:px-[60px] md:pb-[60px]">
-      <div class="flex gap-1 w-[70px] h-[32px] items-center md:h-[60px] md:w-[130px] md:mb-[30px]">
-        <img class="w-[69.33px] h-[32px] md:w-[130px] md:h-[60px]" src="assets/svg/logo.svg" alt="logo">
+      class="bg-main-blue header-logo flex justify-between pt-[15px] md:pt-[0px] pb-[30px] lg:pb-[0px] md:flex-col md:px-[60px] px-[30px]  lg:row-span-2 lg:col-start-1 lg:row-start-1">
+      <div class="flex gap-1  items-center md:h-[60px] md:w-[130px] ">
+        <img class="w-[69.33px] h-[32px] md:w-[130px] md:h-[60px] " src="assets/svg/logo.svg" alt="logo">
         <img class="w-[11.62px] h-[26px] md:w-[21px] md:h-[60px]" src="assets/svg/slash.svg" alt="slash">
         <p class="text-xl leading-6 md:text-4xl md:leading-[43.88px]">services</p>
       </div>
       <img class="w-[32px] h-[32px] md:hidden" src="assets/svg/hamburger.svg" alt="">
-      <nav class="hidden md:flex ">
-        <ul class="flex justify-start gap-[15px]">
-          <li>
-            <a class="nav-text" href="#">about us</a>
-          </li>
-          <li>
-            <a class="nav-text nav-active" href="#">services</a>
-          </li>
-          <li>
-            <a class="nav-text" href="#">team</a>
-          </li>
-          <li>
-            <a class="nav-text" href="#">publications</a>
-          </li>
-          <li>
-            <a class="nav-text" href="#">contact</a>
-          </li>
-        </ul>
-      </nav>
     </div>
+    <nav class="hidden md:flex md:pb-[60px] md:px-[60px] px-[30px] lg:pb-[0px] lg:justify-self-end">
+      <ul class="flex justify-start gap-[15px]">
+        <li>
+          <a class="nav-text whitespace-nowrap" href="#">about us</a>
+        </li>
+        <li>
+          <a class="nav-text nav-active" href="#">services</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#">team</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#">publications</a>
+        </li>
+        <li>
+          <a class="nav-text" href="#">contact</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main class="">
-    <div class="px-[30px] bg-main-blue md:px-[60px] ">
+    <div class="px-[30px] bg-main-blue md:px-[60px] rounded-b-[12px]">
       <div class="pb-[30px] md:pb-[60px]">
         <h1 class=" font-bold text-3xl hero-text-red md:text-[38px] leading-[46.32px]">What can we do better than
           others?</h1>
       </div>
-      <ul class="flex  gap-[30px] flex-wrap md:gap-[60px] pb-[60px]">
-        <li class="w-[294px]">
+      <ul class="flex  gap-[30px] flex-wrap md:gap-[60px] pb-[60px] md:justify-between">
+        <li class="w-dvw md:w-[294px] lg:w-[261px] dssd:w-[400px] dshd:w-[493.33px] xl:w-[320px]">
           <img class="pb-[30px] w-[92px] h-[92px]" src="assets/svg/trash.svg" alt="trash">
           <h2 class="pb-[15px] text-main-h2-color">IT and e-commerce</h2>
           <p class="text-main-p">An endless stream of contracts, tax issues, labor relations, corporate papers - legal
@@ -84,7 +86,7 @@
             business. But there is not much work to do to hire an in-house lawyer.
           </p>
         </li>
-        <li class="w-[294px]">
+        <li class="w-dvw md:w-[294px] lg:w-[261px] dssd:w-[400px] dshd:w-[493.33px] xl:w-[320px]">
           <img class="pb-[30px] w-[92px] h-[92px]" src="assets/svg/briefcase.svg" alt="briefcase">
           <h2 class="pb-[15px] text-main-h2-color">Comprehensive daily
             legal support</h2>
@@ -93,7 +95,7 @@
             field of information technology in Ukraine.
           </p>
         </li>
-        <li class="w-[294px]">
+        <li class="w-dvw md:w-[294px] lg:w-[261px] dssd:w-[400px] dshd:w-[493.33px] xl:w-[320px]">
           <img class="pb-[30px] w-[92px] h-[92px]" src="assets/svg/structure.svg" alt="structure">
           <h2 class="pb-[15px] text-main-h2-color">Structuring corporate relationships</h2>
           <p class="text-main-p">Instead of just providing legal services, we will hire a lawyer or a whole team that
@@ -101,7 +103,7 @@
             your company.
           </p>
         </li>
-        <li class="w-[294px]">
+        <li class="w-dvw md:w-[294px] lg:w-[261px] dssd:w-[400px] dshd:w-[493.33px] xl:w-[320px]">
           <img class="pb-[30px] w-[92px] h-[92px]" src="assets/svg/hands.svg" alt="hands">
           <h2 class="pb-[15px] text-main-h2-color">Building contractual relations</h2>
           <p class="text-main-p">Once a week, or week after month, you have your own lawyer by your side. Anyone in the
@@ -109,7 +111,7 @@
             coffee maker and just talk about current affairs instead of waiting for update status.
           </p>
         </li>
-        <li class="w-[294px]">
+        <li class="w-dvw md:w-[294px] lg:w-[261px] dssd:w-[400px] dshd:w-[493.33px] xl:w-[320px]">
           <img class="pb-[30px] w-[92px] h-[92px]" src="assets/svg/shield.svg" alt="shield">
           <h2 class="pb-[15px] text-main-h2-color">Protection of business, intellectual property</h2>
           <p class="text-main-p">And all the other time he will work on new diverse projects, so he will definitely not
@@ -117,7 +119,7 @@
             corporate lawyer.
           </p>
         </li>
-        <li class="w-[294px]">
+        <li class="w-dvw md:w-[294px] lg:w-[261px] dssd:w-[400px] dshd:w-[493.33px] xl:w-[320px]">
           <img class="pb-[30px] w-[92px] h-[92px]" src="assets/svg/hammer.svg" alt="hammer">
           <h2 class="pb-[15px] text-main-h2-color">Judicial representation</h2>
           <p class="text-main-p">Is it a small, medium-sized company or a market leader? Local business or multinational
@@ -133,49 +135,51 @@
       trust us</h3>
 
     <div class="flex  flex-wrap items-center ">
-      <div class="w-dvw bg-hillel-bg flex justify-center md:w-1/3 md:h-[120px]">
+      <div class="w-dvw bg-hillel-bg flex justify-center md:w-1/3 lg:w-1/4 md:h-[120px]">
         <img class=" min-w-[217px] min-h-[48px]  py-[36px] " src="assets/images/hillel-logo-hneLine-hhite.png"
           alt="hillel-logo">
       </div>
-      <div class="w-dvw bg-wanna-biz flex justify-center md:w-1/3  md:h-[120px]">
+      <div class="w-dvw bg-wanna-biz flex justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[199px] min-h-[32px]  py-[44px] " src="assets/images/wanna-biz.png" alt="wanna-biz">
       </div>
-      <div class="w-dvw bg-tapgerine flex justify-center md:w-1/3  md:h-[120px]">
+      <div class="w-dvw bg-tapgerine flex justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[179px] min-h-[44px]  py-[38px] " src="assets/images/tapgerine.png" alt="tapgerine">
       </div>
-      <div class="w-dvw bg-three-d-look flex justify-center md:w-1/3  md:h-[120px]">
+      <div class="w-dvw bg-three-d-look flex justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[180px] min-h-[42px]  py-[39px] " src="assets/images/3look.png" alt="3look">
       </div>
-      <div class="w-dvw bg-orangear flex justify-center md:w-1/3  md:h-[120px]">
+      <div class="w-dvw bg-orangear flex justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[174px] min-h-[44px]  py-[38px] " src="assets/images/orangear.png" alt="orangear">
       </div>
-      <div class="w-dvw bg-adtelligent flex justify-center md:w-1/3  md:h-[120px]">
+      <div class="w-dvw bg-adtelligent flex justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[194.79px] min-h-[48px]  py-[38px] " src="assets/images/adtelligent.png" alt="adtelligent">
       </div>
-      <div class="hidden md:flex w-dvw bg-clickky flex justify-center md:w-1/3  md:h-[120px]">
+      <div class="hidden md:flex w-dvw bg-clickky flex justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[138px] min-h-[61px]  py-[29px] " src="assets/images/clickky.png" alt="adtelligent">
       </div>
-      <div class="hidden md:flex w-dvw bg-eco-leasing flex justify-center md:w-1/3  md:h-[120px]">
+      <div class="hidden md:flex w-dvw bg-eco-leasing flex justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[146px] min-h-[76px]  py-[22px] " src="assets/images/ecolease.png" alt="adtelligent">
       </div>
-      <div class="hidden md:flex w-dvw bg-infa-tek  justify-center md:w-1/3  md:h-[120px]">
+      <div class="hidden md:flex w-dvw bg-infa-tek  justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[182px] min-h-[60px]  py-[30px] " src="assets/images/infatrec.png" alt="adtelligent">
       </div>
-      <div class="hidden md:flex w-dvw bg-sity-park  justify-center md:w-1/3  md:h-[120px]">
+      <div class="hidden md:flex w-dvw bg-sity-park  justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[181px] min-h-[38px]  py-[41px] " src="assets/images/sitypark.png" alt="adtelligent">
       </div>
-      <div class="hidden md:flex w-dvw bg-art-print  justify-center md:w-1/3  md:h-[120px]">
+      <div class="hidden md:flex w-dvw bg-art-print  justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[189px] min-h-[46px]  py-[37px] " src="assets/images/artprint.png" alt="adtelligent">
       </div>
-      <div class="hidden md:flex w-dvw bg-black  justify-center md:w-1/3  md:h-[120px]">
+      <div class="hidden md:flex w-dvw bg-black  justify-center md:w-1/3 lg:w-1/4  md:h-[120px]">
         <img class=" min-w-[152px] min-h-[95px]  py-[13px] " src="assets/images/ultimate-card.png" alt="adtelligent">
       </div>
     </div>
 
   </main>
   <footer>
-    <div class="bg-footer-bg px-[30px] py-[30px] flex flex-col justify-center items-center">
-      <div class="flex flex-col items-center justify-center md:flex-row md:gap-x-2.5  md:pb-[21px]">
+    <div
+      class="bg-footer-bg px-[30px] py-[30px] flex flex-col justify-center items-center lg:grid lg:grid-cols-2 lg:grid-rows-2">
+      <div
+        class="flex flex-col items-center justify-center md:flex-row md:gap-x-2.5  md:pb-[21px] lg:pb-[0px] lg:justify-start">
 
         <h3 class="text-main-h3 font-normal text-base leading-[19.5px] pb-[10px] md:pb-[0px]">Kyiv, Mechnikova str.,
           14/1</h3>
@@ -183,7 +187,8 @@
         <p class="text-main-h2-color font-bold text-xs leading-[14.63px] tracking-[1px] pb-[21px] md:pb-[0px]">On map
         </p>
       </div>
-      <div class="flex flex-col items-center justify-center md:flex-row md:gap-x-2.5 md:pb-[30px]">
+      <div
+        class="flex flex-col items-center justify-center md:flex-row md:gap-x-2.5 md:pb-[30px] lg:pb-[0px] lg:justify-end">
         <img class="w-[38px] h-[38px]" src="assets/svg/facebook-icon.svg" alt="facebook-icon pb-[10px]">
         <img class="hidden md:flex w-[6px] h-[6px] " src="assets/svg/dot-footer.svg" alt="dot-footer">
         <a class="text-color-tel font-bold text-base leading-[19.5px] pb-[10px] md:pb-[0px]" href="tel:0800211927">0800
@@ -192,7 +197,8 @@
         <a class="text-main-h2-color font-bold text-base leading-[19.5px] pb-[30px] md:pb-[0px]"
           href="mailto:contact@forstudy.space">contact@forstudy.space</a>
       </div>
-      <p class="text-copyright font-normal text-base leading-[19.5px]">&copy; 2021 HLEGAL Law company, LLC</p>
+      <p class="text-copyright font-normal text-base leading-[19.5px] lg:order-2">&copy; 2021 HLEGAL Law company, LLC
+      </p>
     </div>
   </footer>
 </body>
