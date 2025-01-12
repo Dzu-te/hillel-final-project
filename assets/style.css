@@ -1300,8 +1300,12 @@ h6 {
 }
 
 @media (min-width: 1280px) {
-  .xl\:w-\[320px\] {
-    width: 320px;
+  .xl\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .xl\:w-\[350px\] {
+    width: 350px;
   }
 }
 
@@ -1312,7 +1316,7 @@ h6 {
 }
 
 @media (min-width: 1900px) {
-  .dshd\:w-\[493\.33px\] {
-    width: 493.33px;
+  .dshd\:min-w-\[493\.33px\] {
+    min-width: 493.33px;
   }
 }
