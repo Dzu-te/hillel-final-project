@@ -1103,7 +1103,12 @@ h6 {
 .hero-text-red {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
 }
 
 @media (min-width: 768px) {
@@ -1300,10 +1305,6 @@ h6 {
 }
 
 @media (min-width: 1280px) {
-  .xl\:w-\[400px\] {
-    width: 400px;
-  }
-
   .xl\:w-\[350px\] {
     width: 350px;
   }
