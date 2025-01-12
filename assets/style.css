@@ -1108,7 +1108,7 @@ h6 {
 }
 
 .bg-gradient-custom {
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  background: linear-gradient(200deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
 }
 
 @media (min-width: 768px) {
